@@ -3,7 +3,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', type=str, default='synapse')
-parser.add_argument('--exp', type=str, default='fully_unet/fold1')
+parser.add_argument('--exp', type=str, default='fully/fold1')
 parser.add_argument('--split', type=str, default='test')
 parser.add_argument('--speed', type=int, default=0)
 parser.add_argument('-g', '--gpu', type=str,  default='3')
