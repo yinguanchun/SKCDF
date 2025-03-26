@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--task', type=str, default='synapse')
-parser.add_argument('--exp', type=str, default='dhc_unet_300')
+parser.add_argument('--exp', type=str, default='fully')
 parser.add_argument('--folds', type=int, default=3)
 parser.add_argument('--cps', type=str, default='AB')
 args = parser.parse_args()
