@@ -1,7 +1,7 @@
 ## A Semantic Knowledge Complementarity based Decoupling Framework for Semi-supervised Class-imbalanced Medical Image Segmentation (CVPR 2025)
 Official code for "A Semantic Knowledge Complementarity based Decoupling Framework
 for Semi-supervised Class-imbalanced Medical Image Segmentation". (CVPR 2025)
-#Citation
+# Citation
 If this code is useful for your research, please cite:
 ```bibtex
 @inproceedings{zhang2025semantic,
