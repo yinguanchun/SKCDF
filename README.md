@@ -13,6 +13,7 @@ Run  ```preprocess_amos.py``` to convert ```.nii.gz``` files into ```.npy```.
 
 The format of the preprocessed data is ```.npy``` with a size of ```80×160×160```. We will upload the preprocessed data as soon as possible.
 
+The data splits have been uploaded to the codebase.
 
 # Training
 
