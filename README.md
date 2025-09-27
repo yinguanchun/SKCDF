@@ -11,6 +11,7 @@ When training on the AMOS dataset, the hyperparameters are as follows:
 ```
 max_epoch=1500, cps_loss='w_ce+dice', sup_loss='w_ce+dice', batch_size=2, num_workers=2, base_lr=0.1, ema_w=0.99, cps_w=10, cps_rampup=True, consistency_rampup=None
 ```
+Then you can run ```train_skcdf.py``` for training
 # Citation
 If this code is useful for your research, please cite:
 ```bibtex
