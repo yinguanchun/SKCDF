@@ -2,9 +2,14 @@
 Official code for "A Semantic Knowledge Complementarity based Decoupling Framework
 for Semi-supervised Class-imbalanced Medical Image Segmentation". (CVPR 2025)
 # Training
-```
+
 When training on the Synapse dataset, the hyperparameters are as follows:
+```
 max_epoch=1500, cps_loss='w_ce+dice', sup_loss='w_ce+dice', batch_size=2, num_workers=2, base_lr=0.3, ema_w=0.99, cps_w=10, cps_rampup=True, consistency_rampup=None
+```
+When training on the AMOS dataset, the hyperparameters are as follows:
+```
+max_epoch=1500, cps_loss='w_ce+dice', sup_loss='w_ce+dice', batch_size=2, num_workers=2, base_lr=0.1, ema_w=0.99, cps_w=10, cps_rampup=True, consistency_rampup=None
 ```
 # Citation
 If this code is useful for your research, please cite:
