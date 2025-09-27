@@ -3,17 +3,17 @@ Official code for "A Semantic Knowledge Complementarity based Decoupling Framewo
 for Semi-supervised Class-imbalanced Medical Image Segmentation". (CVPR 2025)
 # Data Preparation
 
-The **Synapse** dataset can be downloaded from <https://www.synapse.org/#!Synapse:syn3193805/wiki/>.
+-The **Synapse** dataset can be downloaded from <https://www.synapse.org/#!Synapse:syn3193805/wiki/>.
 
 Run ```preprocess.py``` to convert ```.nii.gz``` files into ```.npy```.
 
-The **AMOS** dataset can be downloaded from <https://amos22.grand-challenge.org/Dataset/>.
+-The **AMOS** dataset can be downloaded from <https://amos22.grand-challenge.org/Dataset/>.
 
 Run  ```preprocess_amos.py``` to convert ```.nii.gz``` files into ```.npy```.
 
-The format of the preprocessed data is ```.npy``` with a size of ```80×160×160```. We will upload the preprocessed data as soon as possible.
+-The format of the preprocessed data is ```.npy``` with a size of ```80×160×160```. We will upload the preprocessed data as soon as possible.
 
-The data splits have been uploaded to the codebase.
+-The data splits have been uploaded to the codebase.
 
 # Training
 
