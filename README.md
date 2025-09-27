@@ -5,7 +5,7 @@ for Semi-supervised Class-imbalanced Medical Image Segmentation". (CVPR 2025)
 
 - The **Synapse** dataset can be downloaded from <https://www.synapse.org/#!Synapse:syn3193805/wiki/>.
 
-  Run ```preprocess.py``` to convert ```.nii.gz``` files into ```.npy```.
+    Run ```preprocess.py``` to convert ```.nii.gz``` files into ```.npy```.
 
 - The **AMOS** dataset can be downloaded from <https://amos22.grand-challenge.org/Dataset/>.
 
