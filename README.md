@@ -15,7 +15,7 @@ Then run ```train_skcdf.py``` to train.
 # Testing
 Run ```test.py``` to generate prediction results.
 # Evaluating
-Run ```evaluate_Ntimes```  to calculate average Dice and ASD.
+Run ```evaluate_Ntimes.py```  to calculate average Dice and ASD.
 
 
 # Citation
