@@ -16,12 +16,12 @@ for Semi-supervised Class-imbalanced Medical Image Segmentation". (CVPR 2025)
 - The data splits have been uploaded to the codebase.
 
 # Training
+When training on the Synapse dataset, we conducted 3 experiments with random seeds of 0,1,666 respectively. The other hyperparameters are as follows:
 
-When training on the Synapse dataset, the hyperparameters are as follows:
 ```
 max_epoch=1500, cps_loss='w_ce+dice', sup_loss='w_ce+dice', batch_size=2, num_workers=2, base_lr=0.3, ema_w=0.99, cps_w=10, cps_rampup=True, consistency_rampup=None
 ```
-When training on the AMOS dataset, the hyperparameters are as follows:
+When training on the AMOS dataset, we conducted 1 experiment with random seeds of 0. The other the hyperparameters are as follows:
 ```
 max_epoch=1500, cps_loss='w_ce+dice', sup_loss='w_ce+dice', batch_size=2, num_workers=2, base_lr=0.1, ema_w=0.99, cps_w=10, cps_rampup=True, consistency_rampup=None
 ```
