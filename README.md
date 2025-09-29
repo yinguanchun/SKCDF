@@ -12,7 +12,8 @@ for Semi-supervised Class-imbalanced Medical Image Segmentation". (CVPR 2025)
     Run  ```preprocess_amos.py``` to convert ```.nii.gz``` files into ```.npy```.
 
 - The format of the preprocessed data is ```.npy``` with a size of ```80×160×160```. We will upload the preprocessed data as soon as possible.
-
+    The preprocessed Synapse dataset has been uploaded to <https://pan.baidu.com/s/1TO9-PE4ZkjPMdw_QPIVSPQ?pwd=zae8>
+  
 - The data splits have been uploaded to the codebase.
 
 # Training
